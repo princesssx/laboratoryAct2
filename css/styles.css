@@ -108,23 +108,25 @@ body {
     top: 0;
     padding: 15px 8%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: rgba(255, 249, 251, 0.9);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     z-index: 1000;
-}
-
-.nav-logo {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5rem;
+    font-size: 22px;
 }
 
 .nav-links a {
     margin-left: 20px;
     text-decoration: none;
-    color: #3A2E39;
+    color:#4A3642;
     transition: 0.3s;
+}
+
+.nav-links a.active{
+    color:#D66A8A;
+    font-weight:700;
 }
 
 .nav-links a:hover {
