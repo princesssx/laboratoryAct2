@@ -106,7 +106,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    padding: 15px 8%;
+    padding: 20px 8%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,11 +147,11 @@ body {
 }
 
 .princess-hero {
-    background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552');
+    background-image: url('https://uploads.onecompiler.io/43wb8gztk/44euq2ky6/1000073063.jpg');
 }
 
 .natalie-hero {
-    background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552');
+    background-image: url('https://uploads.onecompiler.io/43wb8gztk/44euk3ndj/1000073054.jpg');
 }
 
 .overlay {
@@ -283,6 +283,11 @@ body {
 /* RETURN BUTTON */
 .return-btn {
     margin-top: 20px;
+    display: inline-block;
+}
+
+.return-btn b {
+    margin-top: 25px;
     display: inline-block;
 }
 
