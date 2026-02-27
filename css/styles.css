@@ -298,3 +298,54 @@ body {
     background: #F6D1DC;
 }
 
+.highlights {
+    margin-top: 100px;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.highlights h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Carousel container */
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Moving track */
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: scrollLeft 20s linear infinite;
+}
+
+/* Images */
+.carousel img {
+    width: 260px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
+
+/* Smooth infinite scroll */
+@keyframes scrollLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
